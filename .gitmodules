@@ -1,0 +1,3 @@
+[submodule "node_modules/nodemailer"]
+	path = node_modules/nodemailer
+	url = https://github.com/andris9/Nodemailer.git

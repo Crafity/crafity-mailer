@@ -1,0 +1,18 @@
+{
+	"name": "crafity-mailer",
+	"description": "Crafity Email Module",
+	"version": "0.1.0",
+	"author": "Bart Riemens <briemens@crafity.com>",
+	"keywords": ["crafity", "config", "mail", "email", "provider", "nodemailer"],
+	"repository": "git://github.com/crafity/crafity-modules",
+	"main": "./mailer.js",
+	"engines": {
+		"node": "> 0.4.x < 0.7.0"
+	},
+	"scripts" : {
+		"prepublish" : "npm prune"
+	},
+	"dependencies": {
+		"nodemailer": "0.2.4"
+	}
+}
