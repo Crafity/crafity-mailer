@@ -13,6 +13,6 @@
 		"prepublish" : "npm prune"
 	},
 	"dependencies": {
-		"nodemailer": "0.2.4"
+		"nodemailer": "0.3.20"
 	}
 }
