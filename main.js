@@ -4,18 +4,33 @@
  * crafity-config - Crafity Email Module
  * Copyright(c) 2011 Crafity
  * Copyright(c) 2011 Bart Riemens
- * Copyright(c) 2011 Galina Slavova
+ * Copyright(c) 2012 Galina Slavova
  * MIT Licensed
  */
 
 /**
  * Module dependencies.
  */
-
 var nodemailer = require('nodemailer');
 
-exports.init = function (config) {
+/**
+ * Framework name.
+ */
+exports.fullname = 'crafity.mailer';
 
+/**
+ * Framework version.
+ */
+exports.version = '0.0.1';
+
+/**
+ * Initialize module
+ */
+exports.init = function (config) {
+	
+	this.fullname = exports.fullname;
+	this.version = exports.version;
+	
 	nodemailer.SMTP = {
 		host: config.host,
 		port: config.port,
@@ -28,5 +43,5 @@ exports.init = function (config) {
 
 	return {
 		sendMail: nodemailer.send_mail
-	}
+	};
 };
