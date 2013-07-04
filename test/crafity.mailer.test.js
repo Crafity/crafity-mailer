@@ -11,7 +11,7 @@
 var jstest = require('crafity-jstest')
 	, assert = jstest.assert
 	, context = jstest.createContext()
-	, fs = require('crafity-filesystem')
+	, fs = require('fs')
 	, mailer = require('../main.js');
 
 // Print out the name of the test module
