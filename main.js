@@ -1,10 +1,12 @@
-/*jslint bitwise: true, unparam: true, maxerr: 50, white: true, nomen: true */
-/*globals require, providers, exports, process */
+/*jslint node:true, white:true */
+"use strict";
+
 /*!
- * crafity-config - Crafity Email Module
- * Copyright(c) 2011 Crafity
- * Copyright(c) 2011 Bart Riemens
  * Copyright(c) 2012 Galina Slavova
+ * crafity-mailer - Crafity Email Module
+ * Copyright(c) 2011-2013 Crafity
+ * Copyright(c) 2011-2013 Bart Riemens
+ * Copyright(c) 2011-2013 Galina Slavova
  * MIT Licensed
  */
 
