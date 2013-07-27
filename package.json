@@ -1,7 +1,6 @@
 {
 	"name": "crafity-mailer",
 	"description": "Crafity Email Module",
-	"version": "0.1.1",
 	"author": "Galina Slavova <galina@crafity.com>",
 	"homepage": "https://github.com/Crafity/crafity-mailer/wiki",
 	"keywords": ["crafity", "config", "mail", "email", "provider", "nodemailer", "nodeemailer"],
@@ -56,5 +55,6 @@
 	"scripts": {
 		"prepublish": "npm prune",
 	}
+  "version": "0.1.2",
     "test": "scripts/npm-test.sh"
 }

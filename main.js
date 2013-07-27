@@ -21,7 +21,7 @@ exports.fullname = 'crafity.mailer';
 /**
  * Framework version.
  */
-exports.version = '0.1.1';
+exports.version = '0.1.2';
 
 /**
  * Initialize module
