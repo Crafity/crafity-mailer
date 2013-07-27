@@ -16,7 +16,7 @@ var nodemailer = require('nodemailer');
 /**
  * Framework name.
  */
-exports.fullname = 'crafity.mailer';
+exports.fullname = 'crafity-mailer';
 
 /**
  * Framework version.
