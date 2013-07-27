@@ -1,60 +1,58 @@
 {
-	"name": "crafity-mailer",
-	"description": "Crafity Email Module",
-	"author": "Galina Slavova <galina@crafity.com>",
-	"homepage": "https://github.com/Crafity/crafity-mailer/wiki",
-	"keywords": ["crafity", "config", "mail", "email", "provider", "nodemailer", "nodeemailer"],
-	"maintainers": [
-		{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		},
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		}
-	],
-	"contributors": [
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		},
-		{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		}
-	],
-	"main": "./main.js",
-	"directories": {
-		"test": "test"
-	},
-	"licenses": [
-		{
-			"type": "The MIT License",
-			"url": "https://github.com/Crafity/crafity-mailer/blob/master/LICENSE"
-		}
-	],
-	"bugs": "https://github.com/Crafity/crafity-mailer/issues",
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/Crafity/crafity-mailer.git"
-		}
-	],
-	"dependencies": {
-		"nodemailer": "0.3.20",
-		"crafity-jstest": "*"
-	},
-	"engines": {
-		"node": "> 0.4.x < 0.7.0"
-	},
-	"scripts": {
-		"prepublish": "npm prune",
-	}
+  "name": "crafity-mailer",
+  "description": "Crafity Email Module",
   "version": "0.1.2",
+  "author": "Galina Slavova <galina@crafity.com> and Bart Riemens <briemens@crafity.com>",
+  "homepage": "https://github.com/Crafity/crafity-mailer/wiki",
+  "keywords": ["crafity", "config", "mail", "email", "provider", "nodemailer", "nodeemailer"],
+  "maintainers": [
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    },
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    },
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    }
+  ],
+  "main": "./main.js",
+  "directories": {
+    "test": "test"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "https://github.com/Crafity/crafity-mailer/blob/master/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/Crafity/crafity-mailer/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crafity/crafity-mailer.git"
+  },
+  "dependencies": {
+    "nodemailer": "0.3.20",
+    "crafity-jstest": "~0.1.0"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
     "test": "scripts/npm-test.sh"
+  }
 }
