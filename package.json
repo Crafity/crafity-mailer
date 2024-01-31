@@ -45,7 +45,7 @@
     "url": "https://github.com/Crafity/crafity-mailer.git"
   },
   "dependencies": {
-    "nodemailer": "0.3.20",
+    "nodemailer": "6.9.8",
     "crafity-jstest": "~0.1.0"
   },
   "engines": {
